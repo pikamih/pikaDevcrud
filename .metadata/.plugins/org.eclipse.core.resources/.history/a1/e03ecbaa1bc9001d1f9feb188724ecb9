@@ -1,0 +1,5 @@
+package com.pikaDevcrud.repository;
+
+public interface ProductoRepository {
+
+}

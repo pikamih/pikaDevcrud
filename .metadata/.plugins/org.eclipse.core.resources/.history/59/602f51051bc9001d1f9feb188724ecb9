@@ -1,0 +1,15 @@
+package com.pikaDevcrud.model;
+
+import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
+
+@Entity
+@Table(name="productos")
+public class Producto {
+	
+	private Integer id;
+	private String nombre;
+	private String descripcion;
+	private Double precio;
+
+}
